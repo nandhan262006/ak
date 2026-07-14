@@ -101,15 +101,17 @@ export default function Portfolio() {
                     <p className="text-sm text-muted leading-relaxed mb-5">
                       {story.desc}
                     </p>
-                    <Link
-                      href="/contact"
+                    <a
+                      href="https://wa.me/919963716293"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="text-xs uppercase tracking-[0.12em] font-semibold text-primary hover:text-gold transition-colors inline-flex items-center gap-2"
                     >
-                      Book Your Date
+                      Enquire Now
                       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                         <path d="M5 12h14M13 5l7 7-7 7" />
                       </svg>
-                    </Link>
+                    </a>
                   </div>
                 </div>
               </ScrollReveal>
@@ -129,9 +131,14 @@ export default function Portfolio() {
             Every love story deserves to be told beautifully. Let us write yours
             together.
           </p>
-          <Link href="/contact" className="btn-gold">
-            Book Your Date
-          </Link>
+          <a
+            href="https://wa.me/919963716293"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-gold"
+          >
+            Enquire on WhatsApp
+          </a>
         </div>
       </section>
     </>

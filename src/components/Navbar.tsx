@@ -50,10 +50,12 @@ export default function Navbar() {
               </Link>
             ))}
             <a
-              href="/contact"
+              href="https://wa.me/919963716293"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-[10px] uppercase tracking-[0.1em] font-semibold text-surface bg-gold hover:bg-gold-light transition-colors px-5 py-2.5"
             >
-              Book a Session
+              Book on WhatsApp
             </a>
           </div>
 
@@ -111,14 +113,16 @@ export default function Navbar() {
             </Link>
           ))}
           <a
-            href="/contact"
+            href="https://wa.me/919963716293"
+            target="_blank"
+            rel="noopener noreferrer"
             onClick={() => setOpen(false)}
             className={`btn-primary mt-4 transition-all duration-500 ${
               open ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
             }`}
             style={{ transitionDelay: open ? `${links.length * 80}ms` : "0ms" }}
           >
-            <span>Book a Session</span>
+            <span>Book on WhatsApp</span>
           </a>
         </nav>
       </div>

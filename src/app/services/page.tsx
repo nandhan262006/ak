@@ -100,9 +100,9 @@ export default function Services() {
                     <p className="font-[family-name:var(--font-serif)] text-xl text-gold mb-4">
                       {svc.price}
                     </p>
-                    <Link href="/contact" className="text-xs uppercase tracking-[0.1em] font-semibold text-primary hover:text-gold transition-colors">
+                    <a href="https://wa.me/919963716293" target="_blank" rel="noopener noreferrer" className="text-xs uppercase tracking-[0.1em] font-semibold text-primary hover:text-gold transition-colors">
                       Inquire &rarr;
-                    </Link>
+                    </a>
                   </div>
                 </div>
               </ScrollReveal>
@@ -121,12 +121,17 @@ export default function Services() {
               Every wedding is unique. We craft bespoke packages tailored to your vision, venue, and timeline.
               Reach out and we&rsquo;ll build the perfect collection for your celebration.
             </p>
-            <Link href="/contact" className="btn-primary">
-              <span>Start a Conversation</span>
+              <a
+                href="https://wa.me/919963716293"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-primary"
+              >
+                <span>Enquire on WhatsApp</span>
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                 <path d="M5 12h14M13 5l7 7-7 7" />
               </svg>
-            </Link>
+            </a>
           </ScrollReveal>
         </div>
       </section>

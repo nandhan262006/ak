@@ -133,8 +133,8 @@ export default function Gallery() {
             Every celebration deserves to be remembered in frames that last
             forever.
           </p>
-          <a href="/contact" className="btn-gold">
-            Book Your Session
+          <a href="https://wa.me/919963716293" target="_blank" rel="noopener noreferrer" className="btn-gold">
+            Enquire on WhatsApp
           </a>
         </div>
       </section>

@@ -85,7 +85,7 @@ export default function Home() {
               name: "AK Photography Ongole",
               url: "https://akphotography.co.in",
               description: "AK Photography Ongole is the most trusted and top rated photography studio with highly experienced photographer in wedding photography, pre wedding photography, baby photo shoot, birthday photography, couple photography and family photography.",
-              telephone: "+91 XXXXXXXXXX",
+              telephone: "+91 99637 16293",
               email: "hello@akphotography.co.in",
               address: {
                 "@type": "PostalAddress",
@@ -317,15 +317,17 @@ export default function Home() {
                   <p className="text-sm text-muted leading-relaxed mb-5">
                     {story.desc}
                   </p>
-                  <Link
-                    href="/portfolio"
+                  <a
+                    href="https://wa.me/919963716293"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-xs uppercase tracking-[0.12em] font-semibold text-primary hover:text-gold transition-colors inline-flex items-center gap-2"
                   >
-                    View Portfolio
+                    Enquire on WhatsApp
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                       <path d="M5 12h14M13 5l7 7-7 7" />
                     </svg>
-                  </Link>
+                  </a>
                 </div>
               </div>
             ))}
@@ -358,7 +360,7 @@ export default function Home() {
       <section className="relative section-pad overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8"
+            src="/portfoliob1.png"
             alt=""
             fill
             className="object-cover brightness-[0.25]"
@@ -373,14 +375,16 @@ export default function Home() {
               Ready to create something beautiful together?
             </h2>
             <p className="text-surface/50 text-lg mb-10 max-w-xl mx-auto">
-              We&rsquo;re currently booking for the upcoming season. Limited dates available — reach out today.
+              We&rsquo;re currently booking for the upcoming season. Limited dates available — reach out today on WhatsApp.
             </p>
             <div className="flex gap-4 justify-center flex-wrap">
-              <Link href="/contact" className="btn-primary">
-                <span>Get in Touch</span>
-              </Link>
-              <a href="#" className="btn-gold">
-                WhatsApp Us
+              <a
+                href="https://wa.me/919963716293"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-primary"
+              >
+                <span>Enquire on WhatsApp</span>
               </a>
             </div>
           </ScrollReveal>

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import type { Metadata } from "next";
 import ScrollReveal from "@/components/ScrollReveal";
+import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
   title: "Contact — Book AK Photography Ongole | Best Photographer",
@@ -36,75 +37,7 @@ export default function Contact() {
               <div className="gold-line" />
               <h2 className="heading-lg mb-8">Tell us about your day.</h2>
 
-              <form className="space-y-6">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <div>
-                    <label className="block text-xs uppercase tracking-[0.1em] font-semibold text-muted mb-3">
-                      Name
-                    </label>
-                    <input
-                      type="text"
-                      className="w-full bg-transparent border-b border-border/60 px-0 py-3 text-sm text-primary placeholder:text-muted/30 outline-none focus:border-gold transition-colors"
-                      placeholder="Your full name"
-                    />
-                  </div>
-                  <div>
-                    <label className="block text-xs uppercase tracking-[0.1em] font-semibold text-muted mb-3">
-                      Email
-                    </label>
-                    <input
-                      type="email"
-                      className="w-full bg-transparent border-b border-border/60 px-0 py-3 text-sm text-primary placeholder:text-muted/30 outline-none focus:border-gold transition-colors"
-                      placeholder="you@email.com"
-                    />
-                  </div>
-                </div>
-
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <div>
-                    <label className="block text-xs uppercase tracking-[0.1em] font-semibold text-muted mb-3">
-                      Event Date
-                    </label>
-                    <input
-                      type="date"
-                      className="w-full bg-transparent border-b border-border/60 px-0 py-3 text-sm text-primary outline-none focus:border-gold transition-colors"
-                    />
-                  </div>
-                  <div>
-                    <label className="block text-xs uppercase tracking-[0.1em] font-semibold text-muted mb-3">
-                      Event Type
-                    </label>
-                    <select
-                      defaultValue=""
-                      className="w-full bg-transparent border-b border-border/60 px-0 py-3 text-sm text-primary outline-none focus:border-gold transition-colors"
-                    >
-                      <option value="" disabled>Select type</option>
-                      <option value="wedding">Wedding</option>
-                      <option value="engagement">Engagement</option>
-                      <option value="pre-wedding">Pre-Wedding</option>
-                      <option value="other">Other</option>
-                    </select>
-                  </div>
-                </div>
-
-                <div>
-                  <label className="block text-xs uppercase tracking-[0.1em] font-semibold text-muted mb-3">
-                    Message
-                  </label>
-                  <textarea
-                    rows={5}
-                    className="w-full bg-transparent border-b border-border/60 px-0 py-3 text-sm text-primary placeholder:text-muted/30 outline-none focus:border-gold transition-colors resize-none"
-                    placeholder="Tell us about your vision, venue, and what matters most to you..."
-                  />
-                </div>
-
-                <button type="submit" className="btn-primary">
-                  <span>Send Inquiry</span>
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <path d="M5 12h14M13 5l7 7-7 7" />
-                  </svg>
-                </button>
-              </form>
+              <ContactForm />
             </ScrollReveal>
 
             <ScrollReveal>
@@ -115,8 +48,8 @@ export default function Contact() {
               <div className="space-y-8">
                 <div>
                   <p className="text-xs uppercase tracking-[0.1em] font-semibold text-gold mb-2">Phone</p>
-                  <a href="#" className="text-lg text-primary hover:text-gold transition-colors">
-                    +91 XXXXXXXXXX
+                  <a href="https://wa.me/919963716293" target="_blank" rel="noopener noreferrer" className="text-lg text-primary hover:text-gold transition-colors">
+                    +91 99637 16293
                   </a>
                 </div>
 
@@ -145,9 +78,9 @@ export default function Contact() {
                 </div>
 
                 <div className="mt-10 p-8 bg-surface-dim/50">
-                  <p className="text-sm text-primary font-semibold mb-2">Prefer WhatsApp?</p>
-                  <p className="text-sm text-muted mb-4">The quickest way to check availability and get a quote.</p>
-                  <a href="#" className="btn-gold text-xs">Chat on WhatsApp</a>
+                  <p className="text-sm text-primary font-semibold mb-2">Book via WhatsApp</p>
+                  <p className="text-sm text-muted mb-4">The quickest way to check availability and get a quote — all enquiries and bookings through WhatsApp.</p>
+                  <a href="https://wa.me/919963716293" target="_blank" rel="noopener noreferrer" className="btn-gold text-xs">Chat on WhatsApp</a>
                 </div>
               </div>
             </ScrollReveal>

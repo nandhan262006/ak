@@ -44,7 +44,7 @@ export default function Footer() {
           <div className="lg:col-span-4">
             <h4 className="text-xs uppercase tracking-[0.15em] font-semibold text-surface mb-6">Get in Touch</h4>
             <div className="space-y-3 text-sm text-surface/50">
-              <p>+91 XXXXXXXXXX</p>
+              <p>+91 99637 16293</p>
               <p>hello@akphotography.co.in</p>
               <p className="text-surface/30">Ongole, Andhra Pradesh — Available worldwide.</p>
             </div>

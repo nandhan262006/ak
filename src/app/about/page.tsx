@@ -129,7 +129,7 @@ export default function About() {
             <p className="text-surface/50 mb-10">
               We&rsquo;d love to hear about your celebration and how we can help preserve it for generations.
             </p>
-            <a href="/contact" className="btn-gold">Get in Touch</a>
+            <a href="https://wa.me/919963716293" target="_blank" rel="noopener noreferrer" className="btn-gold">Enquire on WhatsApp</a>
           </ScrollReveal>
         </div>
       </section>
