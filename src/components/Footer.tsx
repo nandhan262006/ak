@@ -16,8 +16,8 @@ export default function Footer() {
               Most trusted and top rated photography studio in Ongole. Specializing in wedding, pre wedding, baby, birthday, couple and family photography.
             </p>
             <div className="flex gap-6 mt-8">
-              <a href="#" className="text-surface/40 hover:text-gold transition-colors text-xs uppercase tracking-[0.1em] font-semibold">Instagram</a>
-              <a href="#" className="text-surface/40 hover:text-gold transition-colors text-xs uppercase tracking-[0.1em] font-semibold">Facebook</a>
+              <a href="https://www.instagram.com/ak_photography_ongole_/" target="_blank" rel="noopener noreferrer" className="text-surface/40 hover:text-gold transition-colors text-xs uppercase tracking-[0.1em] font-semibold">Instagram</a>
+              <a href="https://www.facebook.com/akphotography" target="_blank" rel="noopener noreferrer" className="text-surface/40 hover:text-gold transition-colors text-xs uppercase tracking-[0.1em] font-semibold">Facebook</a>
               <a href="#" className="text-surface/40 hover:text-gold transition-colors text-xs uppercase tracking-[0.1em] font-semibold">YouTube</a>
             </div>
           </div>

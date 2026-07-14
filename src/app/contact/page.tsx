@@ -71,8 +71,8 @@ export default function Contact() {
                 <div>
                   <p className="text-xs uppercase tracking-[0.1em] font-semibold text-gold mb-3">Follow Along</p>
                   <div className="flex gap-5">
-                    <a href="#" className="text-muted hover:text-gold transition-colors text-sm uppercase tracking-[0.05em] font-semibold">Instagram</a>
-                    <a href="#" className="text-muted hover:text-gold transition-colors text-sm uppercase tracking-[0.05em] font-semibold">Facebook</a>
+                    <a href="https://www.instagram.com/ak_photography_ongole_/" target="_blank" rel="noopener noreferrer" className="text-muted hover:text-gold transition-colors text-sm uppercase tracking-[0.05em] font-semibold">Instagram</a>
+                    <a href="https://www.facebook.com/akphotography" target="_blank" rel="noopener noreferrer" className="text-muted hover:text-gold transition-colors text-sm uppercase tracking-[0.05em] font-semibold">Facebook</a>
                     <a href="#" className="text-muted hover:text-gold transition-colors text-sm uppercase tracking-[0.05em] font-semibold">YouTube</a>
                   </div>
                 </div>

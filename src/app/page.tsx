@@ -94,8 +94,8 @@ export default function Home() {
                 addressCountry: "IN",
               },
               sameAs: [
-                "https://instagram.com/akphotography",
-                "https://facebook.com/akphotography",
+                "https://www.instagram.com/ak_photography_ongole_/",
+                "https://www.facebook.com/akphotography",
               ],
               priceRange: "₹₹",
           }),
